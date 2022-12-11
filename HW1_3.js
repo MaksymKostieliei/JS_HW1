@@ -5,7 +5,7 @@ const weeksAmount = 8;
 let nonRoundedAmount = consumptionPerWeek * weeksAmount / sheetsInReamPaper;
 let roundedAmount = 1;
 
-for (var i = 1; i < nonRoundedAmount; i++) {
+for (let i = 1; i < nonRoundedAmount; i++) {
   roundedAmount++;
 }
 
